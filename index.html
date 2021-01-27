@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UIKIT - Contact Us Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.14/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.14/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.14/dist/js/uikit-icons.min.js"></script>
+    <style type="text/css">
+      .uk-container{
+      padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="uk-container uk-flex uk-flex-center uk-margin-medium-top">
+      <div class="uk-width-3-4 ">
+        <form class="uk-grid-small" uk-grid>
+          <div class="uk-width-1-2@s">
+            <input class="uk-input" type="text" placeholder="Full name*" required>
+          </div>
+          <div class="uk-width-1-2@s">
+            <input class="uk-input" type="text" placeholder="Email*" required>
+          </div>
+          <div class="uk-width-1-2@s">
+            <input class="uk-input" type="text" placeholder="Subject*" required>
+          </div>
+          <div class="uk-width-1-2@s">
+            <input class="uk-input" type="number" placeholder="Mobile number*" required>
+          </div>
+          <div class="uk-width-1">
+            <textarea class="uk-textarea" rows="5" placeholder="Message*" required></textarea>
+          </div>
+        </form>
+        <button class="uk-button uk-button-primary uk-margin-small-top ">Send</button>
+      </div>
+    </div>
+  </body>
+</html>
